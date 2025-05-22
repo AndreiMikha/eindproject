@@ -43,9 +43,9 @@ Events koppelen     	addEventListener() op alle inputvelden en knoppen
 
 
 📚 Bronnen
-Rick and Morty API
-Vite
-MDN JavaScript docs
+Rick and Morty API (https://rickandmortyapi.com/)
+Vite    (https://vitejs.dev/)       
+MDN JavaScript docs (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 AI gebruik
 OpenAI ChatGPT — hulp bij structuur & debugging (https://chatgpt.com/share/682f17c0-4138-800c-be3a-e0081c45367e)(https://chatgpt.com/share/682f1771-1ef8-800c-94f4-17bf23c386dc)
