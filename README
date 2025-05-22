@@ -42,6 +42,25 @@ Dark mode              	body.dark + toggle opgeslagen in LocalStorage
 Events koppelen     	addEventListener() op alle inputvelden en knoppen
 
 
+💻 Installatie
+Clone het project:
+git clone https://github.com/jouwgebruikersnaam/rick-and-morty-app.git
+cd rick-and-morty-app
+
+Installeer dependencies:
+npm install
+
+Start de ontwikkelserver:
+npm run dev
+Open je browser op http://localhost:5173
+
+
+screenshots:
+images/Screenshots/Lightmode.png
+images/Screenshots/Darkmode.png
+
+
+
 📚 Bronnen
 Rick and Morty API (https://rickandmortyapi.com/)
 Vite    (https://vitejs.dev/)       
