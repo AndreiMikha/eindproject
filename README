@@ -1,0 +1,55 @@
+📘 Rick and Morty Characters Webapp
+Een interactieve single-page webapplicatie gebouwd met Vite en de Rick and Morty API. Deze app laat gebruikers personages bekijken,
+zoeken, filteren, sorteren en opslaan als favorieten. Ook is er ondersteuning voor dark mode.
+
+🌐 Demo
+👉 https://github.com/AndreiMikha/eindproject
+
+⚙️ Functionaliteiten
+🔍 Zoekfunctie op naam
+🧪 Filters op status (Alive, Dead, Unknown) en species
+↕️ Sorteren op naam (A-Z en Z-A)
+⭐ Favorieten toevoegen en bewaren tussen sessies
+🌙 Dark mode toggle met voorkeur-opslag
+✅ Filteren op favorieten
+💾 LocalStorage voor favorieten en instellingen
+🎨 Responsive en aantrekkelijke UI
+
+
+📦 Gebruikte API
+Rick and Morty API
+Website: https://rickandmortyapi.com/
+Endpoint gebruikt: /api/character
+Retourneert: JSON objecten met info over personages
+
+
+🧠 JavaScript concepten
+Concept	Locatie         Toelichting
+DOM manipulatie	        script.js, o.a. in renderCharacters() en event listeners
+Const / let             Overal in script.js
+Template literals   	In innerHTML van character cards
+Array methodes      	.filter(), .map(), .sort()
+Arrow functions     	Gebruikt bij .forEach() en event listeners
+Ternary operator    	Bij toggles en filter-logica
+Callback functions  	Gebruikt in .sort()
+Promises            	fetch() van API
+Async / Await       	In fetchCharacters()
+Fetch API           	Ophalen van Rick and Morty data
+JSON verwerking     	response.json()
+LocalStorage        	Voor favorieten en dark mode voorkeur
+Responsive design      	CSS met flex-wrap en media queries indien nodig
+Dark mode              	body.dark + toggle opgeslagen in LocalStorage
+Events koppelen     	addEventListener() op alle inputvelden en knoppen
+
+
+📚 Bronnen
+Rick and Morty API
+Vite
+MDN JavaScript docs
+
+AI gebruik
+OpenAI ChatGPT — hulp bij structuur & debugging (https://chatgpt.com/share/682f17c0-4138-800c-be3a-e0081c45367e)(https://chatgpt.com/share/682f1771-1ef8-800c-94f4-17bf23c386dc)
+CoPilot bij problemen als er iets niet werkte
+
+✨ Auteur
+📛 Andrei Mikhaylov
