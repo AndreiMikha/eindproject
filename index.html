@@ -1,15 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rick and Morty Characters</title>
-  <link rel="stylesheet" href="src/style.css">
-  
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <h1 style="text-align: center; padding: 20px;">Rick and Morty Characters</h1>
+
+  <div class="filter-bar">
+    <input type="text" id="search" placeholder="Zoek op naam..." />
+    
+    <select id="status-filter">
+      <option value="">Status</option>
+      <option value="Alive">Alive</option>
+      <option value="Dead">Dead</option>
+      <option value="unknown">Unknown</option>
+    </select>
+
+    <select id="species-filter">
+      <option value="">Species</option>
+      <option value="Human">Human</option>
+      <option value="Alien">Alien</option>
+      <option value="Robot">Robot</option>
+    </select>
+
+    <select id="sort-order">
+      <option value="name-asc">Sort: Name A-Z</option>
+      <option value="name-desc">Sort: Name Z-A</option>
+    </select>
+
+    <label>
+      <input type="checkbox" id="favorites-filter" />
+      Alleen favorieten
+    </label>
+
+    <label class="dark-toggle">
+      <input type="checkbox" id="dark-mode-toggle" />
+      🌙
+    </label>
+  </div>
+
   <div id="character-list"></div>
-  <script src="src/script.js"></script>
+
+  <script type="module" src="src/script.js"></script>
 </body>
 </html>
